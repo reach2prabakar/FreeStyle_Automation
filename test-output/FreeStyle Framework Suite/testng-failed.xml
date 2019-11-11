@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite data-provider-thread-count="1" name="Failed suite [FreeStyle Framework Suite]">
+  <test name="Main(failed)">
+    <classes>
+      <class name="com.planit.automation.library.DriverScript">
+        <methods>
+          <include name="executescript" invocation-numbers="0"/>
+          <include name="sendReport"/>
+          <include name="intializeReport"/>
+          <include name="closebrowserexcel"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.planit.automation.library.DriverScript -->
+    </classes>
+  </test> <!-- Main(failed) -->
+</suite> <!-- Failed suite [FreeStyle Framework Suite] -->

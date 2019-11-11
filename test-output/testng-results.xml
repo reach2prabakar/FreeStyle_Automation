@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-11-10T22:56:02Z" name="FreeStyle Framework Suite" finished-at="2019-11-10T23:26:14Z" duration-ms="1811963">
+    <groups>
+    </groups>
+    <test started-at="2019-11-10T22:56:02Z" name="Main" finished-at="2019-11-10T23:26:14Z" duration-ms="1811963">
+      <class name="com.planit.automation.library.DriverScript">
+        <test-method is-config="true" signature="intializeReport(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.planit.automation.library.DriverScript@537f60bf]" started-at="2019-11-11T11:56:02Z" name="intializeReport" finished-at="2019-11-11T11:56:02Z" duration-ms="739" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeReport -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.planit.automation.library.DriverScript@537f60bf]" started-at="2019-11-11T11:56:02Z" name="initialize" finished-at="2019-11-11T11:56:02Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="executescript(java.lang.String, [Ljava.lang.String;)[pri:0, instance:com.planit.automation.library.DriverScript@537f60bf]" started-at="2019-11-11T11:56:14Z" name="executescript" data-provider="testScripts" finished-at="2019-11-11T12:26:14Z" duration-ms="1800020" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[loginpositive]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.String;@5bf61e67]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method org.testng.internal.TestNGMethod.executescript() didn't finish within the time-out 1800000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method org.testng.internal.TestNGMethod.executescript() didn't finish within the time-out 1800000
+	at app//com.planit.automation.processor.TestScript.ReadTestSteps(TestScript.java:117)
+	at app//com.planit.automation.processor.TestScript.<init>(Unknown Source)
+	at app//com.planit.automation.library.DriverScript.executescript(DriverScript.java:109)
+	at java.base@10.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@10.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base@10.0.2/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base@10.0.2/java.lang.reflect.Method.invoke(Unknown Source)
+	at app//org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at app//org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:46)
+	at app//org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:37)
+	at java.base@10.0.2/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base@10.0.2/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base@10.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base@10.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base@10.0.2/java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executescript -->
+        <test-method is-config="true" signature="closebrowserexcel()[pri:0, instance:com.planit.automation.library.DriverScript@537f60bf]" started-at="2019-11-11T12:26:14Z" name="closebrowserexcel" finished-at="2019-11-11T12:26:14Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowserexcel -->
+        <test-method is-config="true" signature="sendReport()[pri:0, instance:com.planit.automation.library.DriverScript@537f60bf]" started-at="2019-11-11T12:26:14Z" name="sendReport" finished-at="2019-11-11T12:26:14Z" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at java.base/java.util.concurrent.ConcurrentHashMap.putVal(Unknown Source)
+	at java.base/java.util.concurrent.ConcurrentHashMap.put(Unknown Source)
+	at java.base/java.util.Properties.put(Unknown Source)
+	at com.planit.automation.common.Common.sendEmail(Common.java:1214)
+	at com.planit.automation.library.DriverScript.sendReport(DriverScript.java:195)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.afterRun(TestRunner.java:1014)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendReport -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:com.planit.automation.library.DriverScript@537f60bf]" started-at="2019-11-11T12:26:14Z" name="exit" finished-at="2019-11-11T12:26:14Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- com.planit.automation.library.DriverScript -->
+    </test> <!-- Main -->
+  </suite> <!-- FreeStyle Framework Suite -->
+</testng-results>

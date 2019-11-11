@@ -1,0 +1,17 @@
+11/11/2019 14:34:48  INFO (Common.java:202) -  Time Stamp : Nov-11-2019_2-34-48
+11/11/2019 14:34:48  INFO (Common.java:208) - Log Directory is created! - C:\Users\psundaramoorthy\Workspace_Eclipse\FreeStyleFramework\src\main\resources\Logs\Log_Nov-11-2019_2-34-48
+11/11/2019 14:34:48  INFO (Common.java:229) - Screenshot_Directory is created! - C:\Users\psundaramoorthy\Workspace_Eclipse\FreeStyleFramework\src\main\resources\ScreenShots\ScreenShot_Nov-11-2019_2-34-48
+11/11/2019 14:34:48  INFO (Common.java:251) - Download Folder is created!
+11/11/2019 14:34:48  INFO (Common.java:184) - Result Folder is created!
+11/11/2019 14:34:48  INFO (Common.java:1716) - Client Name : Client1
+11/11/2019 14:34:48  INFO (Common.java:1717) - Browser  : Chrome
+11/11/2019 14:34:48  INFO (Common.java:1718) - Environment : qaAuto
+11/11/2019 14:34:48  INFO (Common.java:1719) - Operating System :Windows
+11/11/2019 14:34:48  INFO (Common.java:1720) - Test Suite : TestSuite.xlsx
+11/11/2019 14:34:48  INFO (Common.java:1721) - Email Resipents list :psundaramoorthy@planittesting.com
+11/11/2019 14:34:48  INFO (Common.java:291) - Result file updated successful! - C:\Users\psundaramoorthy\Workspace_Eclipse\FreeStyleFramework\src\main\resources\Results\Result_Nov-11-2019_2-34-48\TestResult.xlsx
+11/11/2019 14:34:49  INFO (DriverScript.java:86) - Initializing......  
+11/11/2019 14:34:49  INFO (DriverScript.java:102) - Started Executing the test script loginpositive
+11/11/2019 14:35:08  INFO (Reflections.java:229) - Reflections took 1126 ms to scan 1 urls, producing 0 keys and 0 values 
+11/11/2019 14:36:20  INFO (Reflections.java:229) - Reflections took 503 ms to scan 1 urls, producing 1 keys and 2 values 
+11/11/2019 14:46:36  WARN (Reflections.java:181) - given scan urls are empty. set urls in the configuration
