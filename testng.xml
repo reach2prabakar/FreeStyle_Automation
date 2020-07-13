@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<suite name="FreeStyle Framework Suite" data-provider-thread-count="1">
+<suite name="FreeStyle Framework Suite" data-provider-thread-count="5">
    <test name="Main">
     <classes>
       <class name="com.planit.automation.library.DriverScript" />
+    </classes>
+  </test>
+  <test name="Main">
+    <classes>
+      <class name="com.clientName.automation.project.Login" />
     </classes>
   </test>
 </suite>

@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.planit.automation</groupId>
+  <groupId>com.client.automation</groupId>
   <artifactId>FreeStyleFramework</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
@@ -95,8 +95,22 @@
 		    <artifactId>classgraph</artifactId>
 		    <version>4.8.52</version>
 		</dependency>
-		
-	</dependencies>
+		<dependency>
+		    <groupId>com.fasterxml.jackson.dataformat</groupId>
+		    <artifactId>jackson-dataformat-xml</artifactId>
+		    <version>2.9.0.pr4</version>
+		</dependency>
+		<dependency>
+		    <groupId>com.codoid.products</groupId>
+		    <artifactId>fillo</artifactId>
+		    <version>1.15</version>
+		</dependency>
+	 <dependency>
+		 <groupId>log4j</groupId>
+		 <artifactId>log4j</artifactId>
+		 <version>1.2.17</version>
+	 </dependency>
+ </dependencies>
 	
 	<build>
 		<resources>
@@ -119,14 +133,7 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.18.1</version>
 				<configuration>
-					<data-provider-thread-count>${threadCound}</data-provider-thread-count>
-					<systemPropertyVariables>
-						<AutomationBrowser>${Browser}</AutomationBrowser>
-						<AutomationEnvironment>${Environment}</AutomationEnvironment>
-						<Client>${Client}</Client>
-						<Testsuite>${Testsuite}</Testsuite>
-						<EmailResipents>${EmailResipents}</EmailResipents>
-					</systemPropertyVariables>
+<!--					<data-provider-thread-count>${threadCound}</data-provider-thread-count>-->
 					<suiteXmlFiles>
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
@@ -158,7 +165,7 @@
 					</descriptorRefs>
 					<archive>
 						<manifest>
-							<mainClass>com.planit.automation.library.FrameworkTrigger</mainClass>
+							<mainClass>com.client.automation.library.FrameworkTrigger</mainClass>
 						</manifest>
 					</archive>
 				</configuration>

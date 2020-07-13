@@ -1,1 +1,22 @@
-/target/
+#target folder
+target/
+
+#test output
+test-output
+
+#intellij files
+.idea/
+*.iml
+
+#pkg
+*.zip
+*.rar
+
+#log
+*.log
+
+#result
+Results/
+ScreenShots/
+Template/
+
